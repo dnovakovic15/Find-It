@@ -150,7 +150,7 @@ function trafficData(timeMin, timeMax){
             else{
                 //This is where we need to update traffic div!
                 console.log('Traffic Time: ' + minTime + '<br/>' + 'Leave at: ' + minHour + 'pm');
-                $('#traffic-display').html("<div id='tweets'>" + 'Best Time to Leave' + '<br />' + 'Traffic Time: '  + minTime + ' min <br/>' + 'Leave at: ' + minHour + 'pm'+'</div>');
+                $('#traffic-display').html("<div id='tweets'>" + '<h4>Best Time to Leave</h4>' + '<br />' + 'Traffic Time: '  + minTime + ' min <br/>' + 'Leave at: ' + minHour + 'pm'+'</div>');
               
             }
         } 
